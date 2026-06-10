@@ -1,6 +1,10 @@
 
 public class GroupStudents{
 
+    /**
+     * method sorts array from smallest to largest number
+     * @param arr
+     */
     public static void InsertionSort(int[] arr){
         for(int i = 1; i < arr.length;i++){
             int current = arr[i];
@@ -15,7 +19,10 @@ public class GroupStudents{
         }
     }
 
-
+        /**
+         * this method splits the array and finds the difference between the numbers
+         * @param arr
+         */
         public static void groupStudents(int[] arr){
 
             InsertionSort(arr);
@@ -39,6 +46,10 @@ public class GroupStudents{
             System.out.println("Total difference: " + totalDifference);
         }
 
+        /**
+         * main method to implements void methods
+         * @param args
+         */
             public static void main(String [] args){
                 int[] students = {6, 3, 5, 2, 1, 8};
 
